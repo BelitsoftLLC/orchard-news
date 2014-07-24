@@ -1,0 +1,89 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/News.cshtml
+#| msgid "Title"
+msgid "Title"
+msgstr "Title"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/News.cshtml
+#| msgid "NewsType"
+msgid "NewsType"
+msgstr "News Type"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsType.cshtml
+#| msgid "Title"
+msgid "Title"
+msgstr "Title"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/NewsType.cshtml
+#| msgid "Title"
+msgid "Title"
+msgstr "Title"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/News.cshtml
+#| msgid "Title"
+msgid "Title"
+msgstr "Title"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/News.cshtml
+#| msgid "NewsType"
+msgid "NewsType"
+msgstr "News Type"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/News.cshtml
+#| msgid "ChooseType"
+msgid "ChooseType"
+msgstr "Choose type"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "News"
+msgid "News"
+msgstr "News"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "Category"
+msgid "Category"
+msgstr "Category"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "First"
+msgid "First"
+msgstr "First"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "Previous"
+msgid "Previous"
+msgstr "Previous"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "Next"
+msgid "Next"
+msgstr "Next"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "Last"
+msgid "Last"
+msgstr "Last"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "News"
+msgid "News"
+msgstr "News"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "Category"
+msgid "Category"
+msgstr "Category"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/LastNewsWidget.cshtml
+#| msgid "ViewCount"
+msgid "ViewCount"
+msgstr "Count of news per page"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/LastNewsWidget.cshtml
+#| msgid "Pagination"
+msgid "Pagination"
+msgstr "Pagination"

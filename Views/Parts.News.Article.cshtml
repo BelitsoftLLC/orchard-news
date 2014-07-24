@@ -1,0 +1,11 @@
+@{ Style.Include("Belitsoft.Orchard.News.css").AtHead(); }
+
+<ul class="list_news_item_info">
+    <li class="list_news_item_info_date">@Model.CreatedDate.ToLocalTime().ToShortDateString()</li>
+    <li>|</li>
+    <li>@T("Category"): <span class="news_item_categoty_title">@Model.NewsType</span></li>
+</ul>
+<h3 class="list_news_item_title">@Model.Title</h3>
+<div class="news_item_content clearfix">
+    @MvcHtmlString.Create(Model.Body)
+</div>

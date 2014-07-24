@@ -1,0 +1,169 @@
+# Orchard resource strings - ru-RU
+# Copyright (c) 2010 Outercurve Foundation
+# All rights reserved
+# This file is distributed under the BSD license
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/News.cshtml
+#| msgid "Title"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/News.cshtml"
+msgid "Title"
+msgstr "Заголовок"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/News.cshtml
+#| msgid "NewsType"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/News.cshtml"
+msgid "NewsType"
+msgstr "Тип новости"
+
+
+
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsType.cshtml
+#| msgid "Title"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsType.cshtml"
+msgid "Title"
+msgstr "Заголовок"
+
+
+
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/NewsType.cshtml
+#| msgid "Title"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/NewsType.cshtml"
+msgid "Title"
+msgstr "Заголовок"
+
+
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/News.cshtml
+#| msgid "Title"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/News.cshtml"
+msgid "Title"
+msgstr "Заголовок"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/News.cshtml
+#| msgid "NewsType"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/News.cshtml"
+msgid "NewsType"
+msgstr "Тип новости"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/News.cshtml
+#| msgid "ChooseType"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/EditorTemplates/Parts/News.cshtml"
+msgid "ChooseType"
+msgstr "Выберите тип"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "News"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "News"
+msgstr "Новости"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "Category"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "Category"
+msgstr "Раздел"
+
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "RegisterToLeaveComment"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "RegisterToLeaveComment"
+msgstr "Зарегистрируйтесь, чтобы оставить комментарий."
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "AddComment"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "AddComment"
+msgstr "Добавить комментарий"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "Comment"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "Comment"
+msgstr "Комментарий"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "Submit Comment"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "Submit Comment"
+msgstr "Оставить комментарий"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "1 Comment"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "{0} Comments"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "{0} Comments"
+msgstr "{0} комментариев"
+
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "{0} Comments(2-5)"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "{0} Comments(2-5)"
+msgstr "{0} комментария"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "0 Comments"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "0 Comments"
+msgstr "0 комментариев"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml
+#| msgid "Comments have been disabled for this content."
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/NewsItemWidget.cshtml"
+msgid "Comments have been disabled for this content."
+msgstr "Добавление новых комментариев для этой новости отключено."
+
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "First"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml"
+msgid "First"
+msgstr "первая"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "Previous"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml"
+msgid "Previous"
+msgstr "предыдущая"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "Next"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml"
+msgid "Next"
+msgstr "следующая"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "Last"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml"
+msgid "Last"
+msgstr "последняя"
+
+#: ~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml
+#| msgid "News"
+msgctxt "~/Modules/Belitsoft.Orchard.News/Views/Parts/LastNewsWidget.cshtml"
+msgid "News"
+msgstr "Новости"
+
+msgctxt "Belitsoft.Orchard.News.DataMigrations.Migrations"
+msgid "News"
+msgstr "Новости"
+
+msgctxt "Belitsoft.Orchard.News.DataMigrations.Migrations"
+msgid "NewsType"
+msgstr "Тип новости"
+
+msgctxt "Belitsoft.Orchard.News.DataMigrations.Migrations"
+msgid "LastNewsWidget"
+msgstr "Новости"
+
+msgctxt "Belitsoft.Orchard.News.DataMigrations.Migrations"
+msgid "NewsItemWidget"
+msgstr "Новость"

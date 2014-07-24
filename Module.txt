@@ -1,0 +1,9 @@
+﻿Name: News
+AntiForgery: enabled
+Author: Belitsoft © 2013
+Website: http://belitsoft.com
+Version: 1.0
+OrchardVersion: 1.6
+Description: The News module allows the user to publish the news with the headline and selected category. The published news is available until the set due date.
+Dependencies: Orchard.Fields
+Category: Content

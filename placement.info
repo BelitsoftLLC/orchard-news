@@ -1,0 +1,20 @@
+<Placement>
+  <Place Parts_News_Edit="Content:2"/>
+  <Place Parts_News="Content:2"/>
+  <Place Parts_NewsType_Edit="Content:2"/>
+  <Place Parts_NewsType="Content:2"/>
+  <Place Parts_ListNewsWidget_Edit="Content:2"/>
+  <Place Parts_ListNewsWidget="Content:2"/>
+  <Place Parts_NewsItemWidget_Edit="Content:2"/>
+  <Place Parts_NewsItemWidget="Content:2"/>
+  <Match ContentType="News">
+    <Match DisplayType="Detail">
+      <Place Parts_News_Article="Content:1"
+             Parts_News="-"
+             Fields_DateTime="-"
+             Parts_Common_Metadata="-"
+             Parts_Common_Body="-"
+             />
+    </Match>
+  </Match>
+</Placement>

@@ -1,0 +1,94 @@
+﻿@using System.Globalization
+
+@{ Style.Include("Belitsoft.Orchard.News.css").AtHead(); }
+
+@{
+    string queryWithoutMy = string.Empty;
+    int j = 0;
+
+    foreach (var str in Request.QueryString)
+    {
+        if (!str.Equals("newspage"))
+        {
+            queryWithoutMy += (j == 0 ? "?" : "&") + str + "=" + Request.QueryString[str.ToString()];
+        }
+        j++;
+    }
+    var url = Request.Url.AbsolutePath;
+}
+
+<ul class="list_news">
+    @{
+        foreach (var news in Model.News.News)
+        {
+        <li class="list_news_item">
+            <ul class="list_news_item_info">
+                <li class="list_news_item_info_date">@news.CreatedDate.ToLocalTime().ToShortDateString()</li>
+                <li>|</li>
+                <li>@T("Category"): <span class="news_item_categoty_title">@news.NewsType</span></li>
+            </ul>
+            <a href="@Url.RouteUrl("News", new {id = news.Id})">
+                <h3 class="list_news_item_title">@news.Title</h3>
+            </a>
+            <div class="news_item_content clearfix">
+                @MvcHtmlString.Create(news.Headline)
+            </div>
+        </li>
+        }
+    }
+</ul>
+
+
+
+@*
+@{ 
+    if (Model.News.Paging == true)
+    {
+    <ul class="pagination">
+        @if (@Model.News.PageNumber > 1)
+        {
+            <li class="pagination_first"><a href="@(url + (string.IsNullOrEmpty(queryWithoutMy) ? "?" : queryWithoutMy + "&") + "newspage=1")">@T("First")</a></li>
+            <li class="pagination_previous"><a href="@(url + (string.IsNullOrEmpty(queryWithoutMy) ? "?" : queryWithoutMy + "&") + "newspage=" + (Model.News.PageNumber - 1))">@T("Previous")</a></li>
+        }
+        @{
+        int i;
+        if (Model.News.PageNumber <= Model.News.CountOfPage)
+        {
+
+            int start = 1;
+            int end = (int)Model.News.CountOfPage + 1;
+            for (i = start; i < end; i++)
+            {
+                if (i > Model.News.CountOfPage)
+                {
+                    break;
+                }
+                if (i == Model.News.PageNumber)
+                {
+            <li>@(i)</li>
+                }
+                else
+                {
+                    if (i - 3 < Model.News.PageNumber && Model.News.PageNumber < i + 3)
+                    {
+            <li><a href="@(url + (string.IsNullOrEmpty(queryWithoutMy) ? "?" : queryWithoutMy + "&") + "newspage=" + i)">@(i)</a></li>
+                    }
+                }
+
+
+            }
+            if (Model.News.CountOfPage - Model.News.PageNumber > 2)
+            {
+
+            <li><a href="@(url + (string.IsNullOrEmpty(queryWithoutMy) ? "?" : queryWithoutMy + "&") + "newspage=" + (Model.News.PageNumber + 3))">...</a></li>
+            }
+        }
+        }
+        @if (@Model.News.PageNumber != Model.News.CountOfPage)
+        {
+            <li class="pagination_next"><a href="@(url + (string.IsNullOrEmpty(queryWithoutMy) ? "?" : queryWithoutMy + "&") + "newspage=" + (Model.News.PageNumber + 1))">@T("Next")</a></li>
+            <li class="pagination_last"><a href="@(url + (string.IsNullOrEmpty(queryWithoutMy) ? "?" : queryWithoutMy + "&") + "newspage=" + (Model.News.CountOfPage))">@T("Last")</a></li>
+        }
+    </ul>
+    }
+}*@

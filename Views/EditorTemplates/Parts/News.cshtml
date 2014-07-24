@@ -1,0 +1,23 @@
+@using System.ComponentModel.DataAnnotations
+@using System.Globalization
+@using System.Web.Mvc.Html
+@model Belitsoft.Orchard.News.ViewModels.EditNewsViewModel
+
+<fieldset>
+    <label class="sub @IsPropertyRequired(typeof(Belitsoft.Orchard.News.ViewModels.EditNewsViewModel), "Title")" for="Title">@T("Title")</label><br />
+    @Html.TextBoxFor(m => m.Title, new { @class = "large text", @maxlength = "512"  })<br /><br />
+    <label class="sub @IsPropertyRequired(typeof(Belitsoft.Orchard.News.ViewModels.EditNewsViewModel), "NewsType")" for="NewsType">@T("NewsType")</label><br />
+    @Html.DropDownListFor(model => model.NewsType,
+                          Model.NewsTypes.Select(s => new SelectListItem {
+                              Selected = s.Id == Model.NewsType,
+                              Text = s.Title,
+                              Value = s.Id.ToString(CultureInfo.InvariantCulture)
+                          }),
+                          T("ChooseType").Text)<br /><br />
+    <label class="sub @IsPropertyRequired(typeof(Belitsoft.Orchard.News.ViewModels.EditNewsViewModel), "Headline")" for="Headline">@T("Headline")</label><br />
+    @Html.TextBoxFor(m => m.Headline, new { @class = "large text", @maxlength = "512"  })<br /><br />
+</fieldset>
+
+@helper IsPropertyRequired(Type type, string property){
+    @(Attribute.IsDefined(type.GetProperty(property),typeof(RequiredAttribute)) ?" required":"")
+}
